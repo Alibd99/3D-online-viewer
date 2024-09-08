@@ -1,0 +1,67 @@
+/* General Styling for Intro Page */
+.intro-page {
+    text-align: center;
+    padding: 2rem;
+    background-color:linear-gradient(79deg, #6b4e9e, #6d4468 48%, #beb1a8); /* Clean white background */
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1); /* Soft shadow */
+   
+  }
+  
+  /* Title Styling */
+  .intro-title {
+    font-size: 2.5rem;
+    font-weight: 700; /* Bold title */
+    color: #333333; /* Dark grey for contrast */
+    margin-bottom: 1.5rem; /* Space below the title */
+  }
+  
+  /* Command Instructions Styling */
+  .intro-instructions {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    color: #1000a1; /* Medium grey for readability */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Usage Section Styling */
+  .intro-usage {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #000000; /* Slightly lighter grey */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .command-text {
+    color: #801111; /* Example color */
+  }
+  
+  /* Bold Description Styling */
+  .intro-description {
+    font-size: 1.4rem;
+    font-weight: 700; /* Bolder text */
+    color: #333333; /* Dark grey for better readability */
+    margin: 2rem 0;
+  }
+  
+  /* Button Styling */
+  .intro-button {
+    background-color: #00695d; /* Rich teal color */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 600; /* Bold text */
+    margin-top: 2rem; /* Space above the button */
+  }
+  
+  .intro-button:hover {
+    background-color: #4d0000; /* Darker teal for hover effect */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
